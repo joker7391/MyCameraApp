@@ -6,14 +6,29 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "image": "default"  // Added image field
+      "android": {
+        "image": "default"
+      },
+      "ios": {
+        "image": "default"
+      }
     },
     "preview": {
       "distribution": "internal",
-      "image": "default" 
+      "android": {
+        "image": "default"
+      },
+      "ios": {
+        "image": "default"
+      }
     },
     "production": {
-      "image": "default" 
+      "android": {
+        "image": "default"
+      },
+      "ios": {
+        "image": "default"
+      }
     }
   },
   "submit": {
