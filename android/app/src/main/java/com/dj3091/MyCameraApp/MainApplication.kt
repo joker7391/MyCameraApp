@@ -1,4 +1,4 @@
-package com.mycameraapp
+package com.dj3091.MyCameraApp
 
 import android.app.Application
 import android.content.res.Configuration

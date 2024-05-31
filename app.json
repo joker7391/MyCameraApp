@@ -2,6 +2,10 @@
   "expo": {
     "name": "MyCameraApp",
     "slug": "MyCameraApp",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "scheme": "mycameraapp",
+    "android": {
+      "package": "com.dj3091.MyCameraApp"
+    }
   }
 }

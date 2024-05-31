@@ -1,4 +1,4 @@
-package com.mycameraapp
+package com.dj3091.MyCameraApp
 
 import android.os.Build
 import android.os.Bundle
