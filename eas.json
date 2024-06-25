@@ -7,27 +7,27 @@
       "developmentClient": true,
       "distribution": "internal",
       "android": {
-        "image": "default"
+        "image": "latest"
       },
       "ios": {
-        "image": "default"
+        "image": "latest"
       }
     },
     "preview": {
       "distribution": "internal",
       "android": {
-        "image": "default"
+        "image": "latest"
       },
       "ios": {
-        "image": "default"
+        "image": "latest"
       }
     },
     "production": {
       "android": {
-        "image": "default"
+        "image": "latest"
       },
       "ios": {
-        "image": "default"
+        "image": "latest"
       }
     }
   },
