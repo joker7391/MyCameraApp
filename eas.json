@@ -7,31 +7,36 @@
       "developmentClient": true,
       "distribution": "internal",
       "android": {
-        "image": "latest"
-      },
-      "ios": {
-        "image": "latest"
+        "image": "latest",
+        "env": {
+          "API_URL": "https://dev.example.com"
+        }
       }
     },
     "preview": {
       "distribution": "internal",
       "android": {
-        "image": "latest"
-      },
-      "ios": {
-        "image": "latest"
+        "image": "latest",
+        "env": {
+          "API_URL": "https://staging.example.com"
+        }
       }
     },
     "production": {
       "android": {
-        "image": "latest"
-      },
-      "ios": {
-        "image": "latest"
+        "buildType": "app-bundle",
+        "image": "latest",
+        "env": {
+          "API_URL": "https://prod.example.com"
+        }
       }
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "track": "production"
+      }
+    }
   }
 }
