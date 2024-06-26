@@ -3,40 +3,22 @@
     "version": ">= 9.1.0"
   },
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal",
-      "android": {
-        "image": "latest",
-        "env": {
-          "API_URL": "https://dev.example.com"
-        }
-      }
-    },
     "preview": {
-      "distribution": "internal",
       "android": {
-        "image": "latest",
-        "env": {
-          "API_URL": "https://staging.example.com"
-        }
+        "buildType": "apk"
       }
     },
-    "production": {
+    "preview2": {
       "android": {
-        "buildType": "app-bundle",
-        "image": "latest",
-        "env": {
-          "API_URL": "https://prod.example.com"
-        }
+        "gradleCommand": ":app:assembleRelease"
       }
-    }
-  },
-  "submit": {
-    "production": {
-      "android": {
-        "track": "production"
-      }
-    }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "preview4": {
+      "distribution": "internal"
+    },
+    "production": {}
   }
 }
