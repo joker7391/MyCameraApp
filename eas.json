@@ -7,24 +7,27 @@
       "android": {
         "buildType": "apk"
       },
-      "image": "latest"
+      "developmentClient": false,
+      "distribution": "internal"
     },
     "preview2": {
       "android": {
         "gradleCommand": ":app:assembleRelease"
       },
-      "image": "latest"
+      "developmentClient": false,
+      "distribution": "internal"
     },
     "preview3": {
       "developmentClient": true,
-      "image": "latest"
+      "distribution": "internal"
     },
     "preview4": {
       "distribution": "internal",
-      "image": "latest"
+      "developmentClient": false
     },
     "production": {
-      "image": "latest"
+      "developmentClient": false,
+      "distribution": "store"
     }
   }
 }
