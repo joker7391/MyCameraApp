@@ -7,27 +7,24 @@
       "android": {
         "buildType": "apk"
       },
-      "developmentClient": false,
-      "distribution": "internal"
+      "image": "ubuntu-latest"
     },
     "preview2": {
       "android": {
         "gradleCommand": ":app:assembleRelease"
       },
-      "developmentClient": false,
-      "distribution": "internal"
+      "image": "ubuntu-latest"
     },
     "preview3": {
       "developmentClient": true,
-      "distribution": "internal"
+      "image": "ubuntu-latest"
     },
     "preview4": {
       "distribution": "internal",
-      "developmentClient": false
+      "image": "ubuntu-latest"
     },
     "production": {
-      "developmentClient": false,
-      "distribution": "store"
+      "image": "ubuntu-latest"
     }
   }
 }
