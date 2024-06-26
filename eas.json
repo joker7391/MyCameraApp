@@ -5,26 +5,32 @@
   "build": {
     "preview": {
       "android": {
-        "buildType": "apk"
-      },
-      "image": "ubuntu-latest"
+        "buildType": "apk",
+        "image": "default"
+      }
     },
     "preview2": {
       "android": {
-        "gradleCommand": ":app:assembleRelease"
-      },
-      "image": "ubuntu-latest"
+        "gradleCommand": ":app:assembleRelease",
+        "image": "default"
+      }
     },
     "preview3": {
       "developmentClient": true,
-      "image": "ubuntu-latest"
+      "android": {
+        "image": "default"
+      }
     },
     "preview4": {
       "distribution": "internal",
-      "image": "ubuntu-latest"
+      "android": {
+        "image": "default"
+      }
     },
     "production": {
-      "image": "ubuntu-latest"
+      "android": {
+        "image": "default"
+      }
     }
   }
 }
