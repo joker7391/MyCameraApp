@@ -1,17 +1,19 @@
 {
   "expo": {
     "name": "MyCameraApp",
-    "slug": "camapplication",
+    "slug": "mycameraapp",
     "version": "1.0.0",
-    "scheme": "mycameraapp",
     "android": {
-      "package": "com.dj3091.MyCameraApp"
+      "package": "com.dj3091.mycameraapp",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.dj3091.mycameraapp"
     },
     "extra": {
       "eas": {
-        "projectId": "db46cf3c-b756-4faf-87fd-6f346846e2fd"
+        "projectId": "e416bbac-7173-4d43-b08e-24368634903f"
       }
-    },
-    "owner": "dj.dev"
+    }
   }
 }
