@@ -4,7 +4,7 @@
     "slug": "mycameraapp",
     "version": "1.0.0",
     "android": {
-      "package": "com.dj3091.mycameraapp",
+      "package": "com.dj.dev.mycameraapp",
       "versionCode": 1
     },
     "ios": {
